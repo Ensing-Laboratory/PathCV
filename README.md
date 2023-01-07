@@ -27,7 +27,7 @@ This example is taken from the work published in Ref. [3].
 A second Plumed Nest example is found [here](https://www.plumed-nest.org/eggs/21/049/).
 
 
-
+### References
 [1] Path finding on high-dimensional free energy landscapes. Grisell Díaz Leines and Bernd Ensing, _Phys. Rev. Lett._ __109__ (2012), 020601,  [DOI: 10.1103/PhysRevLett.109.020601](https://doi.org/10.1103/PhysRevLett.109.020601).
 
 [2] Advances in enhanced sampling along adaptive paths of collective variables. Alberto Pérez de Alba Ortíz , Ambuj Tiwari, Rakesh C. Puthenkalathil, and Bernd Ensing, _J. Chem. Phys._ __149__ (2018), 072320, [DOI: 10.1063/1.5027392](https://doi.org/10.1063/1.5027392).
