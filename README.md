@@ -1,7 +1,23 @@
 ![figure](https://aip.scitation.org/na101/home/literatum/publisher/aip/journals/content/jcp/2018/jcp.2018.149.issue-7/1.5027392/20180613/images/large/1.5027392.figures.online.f1.jpeg)
 
 
-# Path-metadynamics with Plumed 2.5
+# Path collective variables with Plumed 2.5
+
+The `PathCV.cpp` source file found in this repository is the latest stable version of our path collective variable (Path-CV) code. It can be downloaded 
+and then be compiled together with the [Plumed](https://www.plumed.org/download) program as described below.
+
+Plumed is a software package that can be linked to various molecular simulation programs to carry out enhanced sampling simulations 
+and study activated molecular transitions, such as chemical reactions, phase transitions, protein folding and conformational transitions, 
+and so forth. 
+
+By using a Path-CV, complex transitions that are difficult to capture with just a few collective variables can be described and biased along using
+a biasing method, such as metadynamics, umbrella sampling, constrained MD, ABF, OPES, etc. A Path-CV is an adaptive function of other 
+descriptive collective variables, such as bond distances, angles, coordination numbers and so on, which can be used to approach and describe as good
+as possible the unknown intrinsic reaction coordinate of a molecular transition, by optimizing the function towards the mean transition path
+or the minimum free energy path. The computational cost of biasing along the one-dimensional path-CV scales almost trivially with the number
+of CVs used in the path-CV.
+
+### Installation
 
 To carry out path-metadynamics or other enhanced sampling simulations using our path collective variable as described in Refs. [1, 2], 
 download the `PathCV.cpp` source file.
@@ -15,6 +31,8 @@ under `Collective variables / Functions / PATHCV`.
 Notice that [Plumed](https://www.plumed.org/download) already comes with a version of our Path-CV implementation. 
 See for example [here](https://www.plumed.org/doc-v2.8/user-doc/html/_p_a_t_h.html). However, at the moment (January 2023), 
 that version does not contain several useful features, such as `genpath` (to generate an initial linear path) and multiple walkers.
+
+### Plumed eggs with example input files 
 
 For a [Plumed Nest](https://www.plumed-nest.org) archive with example input files for a path-metadynamics simulation of DNA base-pairing 
 transitions using Plumed and Gromacs 
