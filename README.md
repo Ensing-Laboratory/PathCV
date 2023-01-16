@@ -50,4 +50,4 @@ A second Plumed Nest example is found [here](https://www.plumed-nest.org/eggs/21
 
 [2] Advances in enhanced sampling along adaptive paths of collective variables. Alberto Pérez de Alba Ortíz , Ambuj Tiwari, Rakesh C. Puthenkalathil, and Bernd Ensing, _J. Chem. Phys._ __149__ (2018), 072320, [DOI: 10.1063/1.5027392](https://doi.org/10.1063/1.5027392).
 
-[3] Sequence dependence of transient Hoogsteen base pairing in DNA. Alberto Pérez de Alba Ortíz, Jocelyne Vreede, and Bernd Ensing,  _PLOS Computational Biology_ __18__ (2022), e1010113.
+[3] Sequence dependence of transient Hoogsteen base pairing in DNA. Alberto Pérez de Alba Ortíz, Jocelyne Vreede, and Bernd Ensing,  _PLOS Computational Biology_ __18__ (2022), e1010113, [DOI: 10.1371/journal.pcbi.1010113](https://doi.org/10.1371/journal.pcbi.1010113).
